@@ -21,7 +21,7 @@ mongoose.connect(process.env.MONGODB_URI)
 });
 
 const app = express();
-PORT = 5000;
+PORT = 3000;
 
 
 app.use(express.json());
