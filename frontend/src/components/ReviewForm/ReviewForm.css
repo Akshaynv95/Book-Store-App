@@ -1,0 +1,44 @@
+.review-form {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #eef1f4;
+  border-radius: 8px;
+}
+
+.review-form h3 {
+  margin-bottom: 15px;
+}
+
+.review-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.review-form select,
+.review-form textarea {
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.review-form button {
+  align-self: flex-start;
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.error-msg {
+  color: red;
+  font-weight: bold;
+}
+
+.success-msg {
+  color: green;
+  font-weight: bold;
+}
